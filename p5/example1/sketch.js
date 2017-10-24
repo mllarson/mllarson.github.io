@@ -1,4 +1,4 @@
-//incomplete- what even needs to be done?
+
 function setup() {
   createCanvas(480, 120);
 }

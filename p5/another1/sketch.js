@@ -1,17 +1,22 @@
-//incomplete
+
 function setup() {
-  createCanvas(480, 120);
+  createCanvas(500, 500);
+  noCursor();
 }
 
 function draw() {
   if (mouseIsPressed) {
-    fill(0);
+    fill(random(0,255),random(0,255),random(0,255),random(100,255));
+    stroke(random(0,255),random(0,255),random(0,255));
+    ellipse(mouseX, mouseY, 80, 80);
      } 
 
    else {
-    fill(255);
+    fill(random(0,255),random(0,255),random(0,255),random(100,255));
+    stroke(random(0,255),random(0,255),random(0,255));
+    rect(mouseX, mouseY, 80, 80);
       }
 
-  ellipse(mouseX, mouseY, 80, 80);
+  
 
 }
