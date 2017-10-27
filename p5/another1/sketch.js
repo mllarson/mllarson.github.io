@@ -1,6 +1,7 @@
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1000, 500);
+  background(188, 188, 188);
   noCursor();
 }
 
