@@ -22,7 +22,8 @@ body {
   line-height: 1; }
 
 ol, ul {
-  list-style: none; }
+  list-style: none; 
+  line-height: 120%}
 
 table {
   border-collapse: collapse;
