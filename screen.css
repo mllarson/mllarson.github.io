@@ -23,7 +23,8 @@ body {
 
 ol, ul {
   list-style: none; 
-  line-height: 120%}
+  line-height: 120%
+}
 
 table {
   border-collapse: collapse;
@@ -66,4 +67,8 @@ a {
   h2 {
     font-size: 2em;
     color: #8C1F8C
+  }
+
+  li { 
+    padding-left: 1em; 
   }
